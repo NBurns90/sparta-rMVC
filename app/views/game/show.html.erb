@@ -1,0 +1,9 @@
+<h1>Show Page</h1>
+
+<h1><%= @game.game_name %></h1>
+<h3><%= @game.game_description %></h3>
+<h3><%= @game.developer %></h3>
+<h3><%= @game.publisher %></h3>
+<h3><%= @game.genre %></h3>
+
+<a href="/game/<%= @game.id %>/edit"><h4>Edit Game</h4></a>
